@@ -70,5 +70,5 @@ console.log("Is 3, 4, 5 a triple?", triple(3,4,5));
 console.log("Is 5, 9, 16 a triple?", triple(5,9,16));
 
 //sub test cases
-console.log('sub(3, 4) should be -1', sub(3,4));
+console.log('sub(3, 4) should be -1', sub(3, 4));
 console.log('sub(10, 4) should be 6', sub(10, 4));
