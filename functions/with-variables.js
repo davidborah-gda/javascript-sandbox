@@ -4,27 +4,34 @@
 //}
 //Alternative to the above
 
-const concat = function (a, b){
-   return a + b;
-};
+//const concat = function (a, b){
+//   return a + b;
+//};
 
+//Further Alternative Using "FAT" Arrow Functions
+const concat = (a, b) => a + b; 
+//in fat arrow functions there is an implicit return if you have no "{}"
 
 //function multiplyBy3(x){
 //    return 3 * x;
 //}
 
-const multiplyBy3 = function (x){
-    return 3 * x;
-}
+//rewrite as a fat arrow with an implicit return
+//const multiplyBy3 = function (x){
+//    return 3 * x;
+//};
 
+const multiplyBy3 = (x) => 3 * x;
 
 //function fortyTwo(){
 //    return 42;
 //}
 
-const fortyTwo = function (){
-    return 42;
-}
+//const fortyTwo = function (){
+//    return 42;
+//};
+
+const fortyTwo = () => 42;
 
 
 //add function 
@@ -33,9 +40,12 @@ const fortyTwo = function (){
 //    return x + y;
 //}
 
-const add = function (x, y){
-    return x + y;
-}
+//rewrite as fat arrow with implicit return
+//const add = function (x, y){
+//    return x + y;
+//};
+
+const add = (x, y) => x + y;
 
 //length function
 
@@ -45,7 +55,7 @@ const add = function (x, y){
 
 const length = function(word){
     return word.lenght;
-}
+};
 
 /**
  * @param a - number of the small side of a triangle
@@ -60,7 +70,7 @@ const length = function(word){
 
 const triple = function(a,b,c){
     return a * a + b * b === c * c;
-}
+};
 
 
 /**
@@ -75,7 +85,7 @@ const triple = function(a,b,c){
 
 const sub = function(x, y){
     return x - y;
-}
+};
 
 const result = concat("yayyy", "woooo!!!");
 console.log(result);
