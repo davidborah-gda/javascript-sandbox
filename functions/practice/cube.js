@@ -10,4 +10,4 @@ function cube(n){
 
 console.log("cube(3) should be 27", cube(3));
 console.log("cube(4) should be 64", cube(3));
-console.log("cube(5) should be 128", cube(3));
+console.log("cube(5) should be 125", cube(3));
