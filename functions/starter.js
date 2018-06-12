@@ -24,9 +24,9 @@ function length(word){
 
 }
 /**
- * {param} a - number of the small side of a triangle
- * {param} b - number of the middle side of a triangle
- * {param} c - number of the hypotenuse
+ * @param a - number of the small side of a triangle
+ * @param b - number of the middle side of a triangle
+ * @param c - number of the hypotenuse
  * @return boolean true if a^2 + b^2 === c^2
  */
 
@@ -37,7 +37,7 @@ function triple(a, b, c){
 /**
  * @param x first number
  * @param y second number
- * @return difference of x and y (x - y)
+ * @return number difference of x and y (x - y)
  */
 
  function sub(x, y){
