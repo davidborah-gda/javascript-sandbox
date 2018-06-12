@@ -21,7 +21,9 @@ const concat = (a, b) => a + b;
 //    return 3 * x;
 //};
 
-const multiplyBy3 = (x) => 3 * x;
+const multiplyBy3 = (x) => {
+    return 3 * x;
+};
 
 //function fortyTwo(){
 //    return 42;
