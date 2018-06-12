@@ -16,7 +16,7 @@ const concat = (a, b) => a + b;
 //    return 3 * x;
 //}
 
-//rewrite as a fat arrow with an implicit return
+//rewrite as a fat arrow with an Explicit return "{}"
 //const multiplyBy3 = function (x){
 //    return 3 * x;
 //};
