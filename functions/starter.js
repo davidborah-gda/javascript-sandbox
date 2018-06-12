@@ -11,6 +11,20 @@ function fortyTwo(){
     return 42;
 }
 
+//add funstion 
+
+function add (x, y){
+    return x + y;
+}
+
+//length function
+
+function length(word){
+    return word.length;
+
+}
+
+
 const result = concat("yayyy", "woooo!!!");
 console.log(result);
 
@@ -24,3 +38,9 @@ console.log(product2);
 
 console.log (fortyTwo());
 console.log (fortyTwo('cheese'));
+
+const sum = add(7,3);
+console.log(sum);
+
+const lengthOfCheese = length("cheese");
+console.log(lengthOfCheese);
