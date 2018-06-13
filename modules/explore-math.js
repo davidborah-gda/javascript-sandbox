@@ -1,4 +1,7 @@
+
+//Common JS Module Syntax
 const math = require('./math.js');
+//will the following work
 
 console.log("The module contains", math);
 
