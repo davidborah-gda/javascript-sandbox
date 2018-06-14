@@ -22,3 +22,13 @@ console.log(10);
 for(let i = 1; i < 11; i += 1){  //could be i <= 10 also
 console.log(i);
 }
+
+//  console.log(i);  // doesn't exist becuase of the use of let
+
+//With a WHILE LOOP
+let x = 1;
+while(x < 11){
+    console.log(x);
+    x += 1;   // this is just opinion
+    // alternative to above  x++ or ++x
+}
