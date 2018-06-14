@@ -3,6 +3,8 @@ const letters = ['a', 'b', 'c'];
 
 console.log('nums', nums);
 console.log('letters', letters);
+console.log('length of nums', nums.length);
+console.log('lenght of letters', letters.length);
 
 //Grab an element
 //arrays are zero (0) indexed
